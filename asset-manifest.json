@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/harassment-info350/static/css/main.84065d70.chunk.css",
+    "main.js": "/harassment-info350/static/js/main.9a2e6519.chunk.js",
+    "main.js.map": "/harassment-info350/static/js/main.9a2e6519.chunk.js.map",
+    "runtime-main.js": "/harassment-info350/static/js/runtime-main.39866314.js",
+    "runtime-main.js.map": "/harassment-info350/static/js/runtime-main.39866314.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/harassment-info350/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ccf70e75.chunk.js": "/harassment-info350/static/js/2.ccf70e75.chunk.js",
+    "static/js/2.ccf70e75.chunk.js.map": "/harassment-info350/static/js/2.ccf70e75.chunk.js.map",
+    "index.html": "/harassment-info350/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/harassment-info350/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.84065d70.chunk.css.map": "/harassment-info350/static/css/main.84065d70.chunk.css.map",
+    "static/js/2.ccf70e75.chunk.js.LICENSE.txt": "/harassment-info350/static/js/2.ccf70e75.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39866314.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ccf70e75.chunk.js",
+    "static/css/main.84065d70.chunk.css",
+    "static/js/main.9a2e6519.chunk.js"
+  ]
+}
