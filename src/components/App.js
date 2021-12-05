@@ -11,6 +11,7 @@ function App() {
       <div class="body" />
       <Routes>
             <Route path="/" element = {<Welcome />}></Route>
+            <Route path="/harassment-info350" element = {<Welcome />}></Route>
             <Route path="/Welcome" element = {<Welcome />}></Route>
             <Route path="/Stats" element={<Stats />}></Route>
       </Routes>
