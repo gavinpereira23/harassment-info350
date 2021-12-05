@@ -10,6 +10,7 @@ function App() {
       <NavBar />
       <div class="body" />
       <Routes>
+            <Route exact path="/harassment-info350" element = {<Welcome />}></Route>
             <Route path="/Welcome" element = {<Welcome />}></Route>
             <Route path="/Stats" element={<Stats />}></Route>
       </Routes>
