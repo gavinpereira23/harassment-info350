@@ -44,7 +44,7 @@ h3{
 
 .body{
     padding-top:100px;
-    background-color: #E5F7FF !important; 
+    background-color: #E5F7FF !important;
 }
 
 
@@ -79,4 +79,82 @@ a.nav-text-color{
 
 a.nav-text-color:hover{
     color: #E3DDFF !important;
+}
+
+
+
+.postBox{
+    border-radius: 9px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #61B6DA;
+    margin-bottom: 10px;
+}
+
+.prof-img-holder{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.post{
+    font-family: system-ui;
+    font-weight: bold;
+}
+
+
+.tag{
+    background-color: #E5F7FF;
+    width: fit-content;
+    margin-right: 3px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.post-border{
+    border-top: 2px dashed #61B6DA;
+}
+
+
+
+
+.topPost{
+    border-top-style: solid !important;
+    background-color: #000 !important;
+}
+
+.topUsersBox{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    border-style: solid;
+    border-color: #61B6DA;
+    background-color: #fff;
+}
+
+
+.box-title{
+    text-align: center;
+}
+
+.hotQuestions{
+    color: #61B6DA;
+    margin-left: 15px;
+}
+
+.greyed{
+    color: #bbb;
+    text-align: left;
+    margin-bottom: 7px !important;
+}
+
+.topUsersBox>p{
+    margin-bottom: 0;
 }

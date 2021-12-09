@@ -18,10 +18,12 @@ export function NavBar(){
                 <LinkContainer to="./Stats">
                     <Nav.Link className="nav-text-color">STATISTICS</Nav.Link>
                 </LinkContainer>
-              <Nav.Link className="nav-text-color" href="#">FORUM</Nav.Link>
-              <LinkContainer to="./Resources">
-                <Nav.Link className="nav-text-color">RESOURCES</Nav.Link>
-              </LinkContainer>
+                <LinkContainer to="./Forum">
+                    <Nav.Link className="nav-text-color" href="#">FORUM</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="./Resources">
+                    <Nav.Link className="nav-text-color">RESOURCES</Nav.Link>
+                </LinkContainer>
             </Nav>
           </Navbar.Collapse>
       </Container>
