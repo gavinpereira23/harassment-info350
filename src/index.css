@@ -17,8 +17,7 @@ code {
 
 .nav-brand{
     font-size: 35px !important;
-    font-family: 'Bebas Neue', cursive;
-    color: #fff
+    font-family: 'Bebas Neue';
 }
 
 
@@ -27,12 +26,57 @@ code {
 }
 
 h1{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-size: 40px;
+}
+
+h2{
+    font-family: system-ui;
+    font-size: 25px !important;
+    color: #238CB9;
+}
+
+h3{
+    font-size: 18px !important;
 }
 
 
 
 .body{
-    padding-top:100px; 
+    padding-top:100px;
+    background-color: #E5F7FF !important; 
+}
+
+
+.col.black{
+    border-radius: 9px;
+    background-color: #ccc;
+}
+
+
+
+.nav-text{
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+a{
+    color: #238CB9 !important;
+}
+
+a:hover{
+    color: #E3DDFF !important;
+}
+
+a.nav-text-color{
+    color: #000 !important;
+}
+
+a.nav-text-color:hover{
+    color: #E3DDFF !important;
 }
