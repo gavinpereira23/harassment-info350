@@ -31,7 +31,7 @@ export function PostBox(){
     return(
         <div class="postBox">
             <Post profile= {elephant} postContent="My son keeps getting bullied on social media" tagContent={["#bullied", "#school", "#social media"]} firstPost = {true}/>
-            <Post profile= {koala} postContent="Why is online bullying a toxic environment?" tagContent={["#gaming", "#onlinegaming", "#toxic"]} />
+            <Post profile= {koala} postContent="Why is online bullying such a toxic environment?" tagContent={["#gaming", "#onlinegaming", "#toxic"]} />
             <Post profile= {dino} postContent="Am I the only person that feels uncomfortable when people send me sexual messages?" tagContent={["#sexualharassment", "#dms"]} />
             <Post profile= {panda} postContent="There are always going to be people who try to bring you down. Ignore them. " tagContent={["#staypositive", "#hatersgonnahate"]} />
         </div>);
@@ -49,7 +49,7 @@ export function Post({profile, postContent, tagContent, firstPost}){
     let onePost = (
         <Container fluid>
             <Row className={"px-2 py-3 " + postClass}>
-                <Col lg={3} md={3} sm = {3}>
+                <Col lg={3} md={3} sm ={3}>
                     <div class="prof-img-holder">
                         <Image className="profileImage" src={profile} roundedCircle fluid></Image>
                     </div>

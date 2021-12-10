@@ -158,3 +158,73 @@ a.nav-text-color:hover{
 .topUsersBox>p{
     margin-bottom: 0;
 }
+
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #61B6DA;
+  max-width: 30px;
+  color: #FF8989;
+  font-weight: bold;
+}
+input:focus {
+  border-color: #E3DDFF;
+}
+
+
+.big-bold{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+
+}
+span{
+    color: #FF8989;
+}
+
+
+.htypes{
+    width: fit-content !important;
+    margin-right: 3px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+
+.htypes-red{
+    color: red;
+    background-color: #FFDDDD;
+}
+
+.htypes-blue{
+    color: #0096D7;
+    background-color: #DDF3FF;
+}
+
+.htypes-green{
+    color: #C5D700;
+    background-color: #F8FFDD;
+}
+
+.htypes-orange{
+    color: #D76700;
+    background-color: #FFEDDD;
+}
+
+
+.htypes-purple{
+    color: #D200D7;
+    background-color: #E3DDFF;
+}
+
+
+.statBox{
+    padding-top: 15px; 
+    padding-left: 15px;
+    padding-bottom: 15px;
+    max-width: fit-content;
+}
