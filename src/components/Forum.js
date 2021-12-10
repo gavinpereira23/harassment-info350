@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import {Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col, Image, Button} from 'react-bootstrap';
 import forumpic from '../imgs/forumpic.png'
 import koala from '../imgs/ProfileImgs/koala.png'
 import dino from '../imgs/ProfileImgs/dino.png'
@@ -10,6 +10,7 @@ export function Forum(){
     return(
         <Container>
             <h1>Forum</h1>
+                <Row lg={2}><Button className="btn-style" variant="secondary">+ New Post</Button></Row>
             <Row>
                 <Col className= "col-no-padding" xs={12} sm={12} md={12} lg={8}>
                     <PostBox />

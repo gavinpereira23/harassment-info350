@@ -1,19 +1,56 @@
 import {Link} from 'react-router-dom';
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col, Image, Button} from 'react-bootstrap';
+import {Post} from './Forum.js';
+import elephant from '../imgs/ProfileImgs/elephant.png';
+import hand from '../imgs/hand.png';
+
 
 export function Welcome(){
     return(
         <Container>
-            <h1>Welcome to End Harassment</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. Ornare aenean euismod elementum nisi. Pretium fusce id velit ut tortor pretium viverra suspendisse. Tincidunt id aliquet risus feugiat in ante metus dictum. Maecenas accumsan lacus vel facilisis. Duis at consectetur lorem donec massa sapien faucibus. Malesuada fames ac turpis egestas maecenas. Turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie. Sagittis aliquam malesuada bibendum arcu.
-            
-            Sagittis nisl rhoncus mattis rhoncus urna neque. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Molestie a iaculis at erat pellentesque adipiscing commodo elit at. Et ligula ullamcorper malesuada proin libero nunc consequat. Quis vel eros donec ac odio tempor orci dapibus ultrices. Suspendisse potenti nullam ac tortor vitae. Purus faucibus ornare suspendisse sed nisi lacus sed viverra. Nisl condimentum id venenatis a. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Quis blandit turpis cursus in hac habitasse platea dictumst. At consectetur lorem donec massa sapien faucibus et molestie. Lobortis elementum nibh tellus molestie nunc non blandit massa. Id aliquet lectus proin nibh nisl condimentum. Egestas fringilla phasellus faucibus scelerisque. Amet purus gravida quis blandit turpis cursus in hac habitasse.
+            <Row><Container className="text-center"><h1>Welcome to End Online Harassment!</h1></Container></Row>
+            <Row>
+                <Col lg={4} md={4} sm={12} xs = {12}>
+                    <Row className="welcomeBox">
+                        <h4>What is <span className="blueText">Harassment</span>?</h4>
+                        <p><span class="blueText">Harassment</span> is defined as “aggressive pressure or intimidation.” </p>
+                        <p><span class="blueText">Online Harassment</span> is defined as the use of the Internet to bully, harass, threaten, or maliciously embarrass.</p>
+                    </Row>
+                    <Row className="welcomeBox">
+                        <h4>Featured Forum Discussion</h4>
+                        <Post profile= {elephant} postContent="My son keeps getting bullied on social media" tagContent={["#bullied", "#school"]} firstPost = {true}/>
+                    </Row>
+                </Col>
+                <Col lg={4} md={4} sm={12} xs= {12}>
+                    <Row className="welcomeBox">
+                        <h4 className="text-center">Online Harassment During the Pandemic</h4>
+                        <p>Online Harassment has risen during the pandemic, especially against women. See more on our <a href='./Stats'>Statistics page</a>.</p>
+                    </Row>
+                    <Row className="welcomeBox">
+                        <Image src={hand} fluid></Image>
+                    </Row>
+                </Col>
 
-            Et netus et malesuada fames ac turpis egestas sed tempus. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Massa placerat duis ultricies lacus sed turpis tincidunt id. Morbi tristique senectus et netus et. Urna nec tincidunt praesent semper feugiat nibh sed. Dolor purus non enim praesent elementum facilisis leo vel. Rhoncus est pellentesque elit ullamcorper. Et odio pellentesque diam volutpat commodo sed egestas. Iaculis nunc sed augue lacus viverra vitae congue eu. Cursus in hac habitasse platea. Ullamcorper a lacus vestibulum sed arcu. A erat nam at lectus urna duis. In vitae turpis massa sed elementum tempus egestas sed.
+                <Col lg={4} md={4} sm={12} xs= {12}>
+                    <Row className="welcomeBox">
+                        <h4 class="text-center">Learn About Upcoming Events</h4>
+                        <h3 class="text-center"><span className="blueText">Week of Action</span></h3>
+                        <p class="text-center"> Apr 3-9, 2022</p>
 
-            Dignissim enim sit amet venenatis urna. Magnis dis parturient montes nascetur ridiculus mus mauris. Venenatis cras sed felis eget velit aliquet sagittis. Gravida rutrum quisque non tellus orci. Tempus urna et pharetra pharetra massa. Tincidunt tortor aliquam nulla facilisi. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Interdum consectetur libero id faucibus nisl tincidunt eget nullam non. Lectus nulla at volutpat diam. Volutpat maecenas volutpat blandit aliquam etiam. Interdum velit laoreet id donec ultrices tincidunt arcu. Augue mauris augue neque gravida in fermentum et sollicitudin. Purus ut faucibus pulvinar elementum. Nibh praesent tristique magna sit amet purus. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim.
+                        <h3 class="text-center"><span className="blueText">Virtual or In Person Training</span></h3>
+                        <p class="text-center">Anytime</p>
 
-            Netus et malesuada fames ac turpis egestas integer. Est ultricies integer quis auctor elit sed vulputate mi. Urna molestie at elementum eu facilisis sed odio. Etiam sit amet nisl purus in mollis. Enim diam vulputate ut pharetra sit amet aliquam. Semper auctor neque vitae tempus quam pellentesque nec nam. Viverra aliquet eget sit amet. Purus non enim praesent elementum facilisis leo vel fringilla. Suspendisse potenti nullam ac tortor vitae. Facilisi nullam vehicula ipsum a arcu. Tellus orci ac auctor augue mauris augue neque gravida. Cursus risus at ultrices mi tempus imperdiet nulla. Mi bibendum neque egestas congue quisque egestas diam in arcu. Neque sodales ut etiam sit amet. Ac feugiat sed lectus vestibulum mattis ullamcorper. Arcu dui vivamus arcu felis bibendum ut tristique. Imperdiet massa tincidunt nunc pulvinar sapien et. Proin nibh nisl condimentum id venenatis a condimentum vitae. </p>
+                        <h3 class="text-center"><span className="blueText">Donation Drive</span></h3>
+                        <p class="text-center">Entire Month of April</p>
+
+                        <h3 class="text-center"><span className="blueText">In Person Harassment Lecture</span></h3>
+                        <p class="text-center"> Apr 10, 2022</p>
+
+                    </Row>
+                </Col>
+
+            </Row>
+
         </Container>
     );
 

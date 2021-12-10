@@ -223,8 +223,30 @@ span{
 
 
 .statBox{
-    padding-top: 15px; 
+    padding-top: 15px;
     padding-left: 15px;
     padding-bottom: 15px;
     max-width: fit-content;
+}
+
+
+.btn-style{
+    max-width: fit-content !important;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+.welcomeBox{
+    background-color: #fff !important;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+
+.blueText{
+    color: #238CB9 !important;
 }

@@ -17,7 +17,7 @@ export function UserStatCard(){
     const [age, ageSetter ] = useState(25);
     return(
         <Container>
-            <Row><h1>You Are Not Alone</h1></Row>
+            <Row><h1>STATISTICS</h1></Row>
             <Row className="topUsersBox statBox" >
                 <AgeInput setter={ageSetter} />
 
@@ -25,6 +25,7 @@ export function UserStatCard(){
 
                 <HTypesContainer personAge={age} />
             </Row>
+            <Row><p class="big-bold">All data from <a href="https://www.pewresearch.org/internet/2021/01/13/personal-experiences-with-online-harassment/">Pew Research</a></p></Row>
         </Container>
 
     );
@@ -33,18 +34,14 @@ export function UserStatCard(){
 
 
 export function UserCircleCard(){
-    
+
 }
-
-
-
-
 
 
 
 export function AgeInput({setter}){
     const inputBox  = <input placeholder = {25} type='text' onChange={changeEvent => setter(changeEvent.target.value)}></input>;
-    const inputText = <p class= "big-bold">Enter your age (we will not save it): {inputBox}</p>;
+    const inputText = <p class= "big-bold">Enter your age (we won't save it): {inputBox}</p>;
     return [inputText, <p>&nbsp;</p> ];
 }
 
