@@ -76,7 +76,7 @@ export function CommonHtypes({personAge}){
                 htypes = {["Namecalling (51%)", "Purposeful Embarassment (40%)"]}
                 colors = {["htypes-blue", "htypes-purple"]} />;
     }
-    else if(personAge > 30 && personAge < 49){
+    else if(personAge < 49){
         htypes = <RenderHTypes
                 htypes = {["Namecalling (37%)", "Purposeful Embarassment (33%)"]}
                 colors = {["htypes-blue", "htypes-purple"]} />

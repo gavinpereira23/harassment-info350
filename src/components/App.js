@@ -6,13 +6,19 @@ import{Resources} from './Resources.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 
+
+
+
+
+
+
 function App() {
     document.body.classList.add('body');
   return (
     <div className="App" style={{backgroundColor:'#E5F7FF'}}>
       <NavBar />
           <Routes>
-                <Route path="/" element = {<Welcome />}></Route>
+                <Route exact path="/" element = {<Welcome />}></Route>
                 <Route path="/harassment-info350" element = {<Welcome />}></Route>
                 <Route path="/Welcome" element = {<Welcome />}></Route>
                 <Route path="/Stats" element={<Stats />}></Route>
